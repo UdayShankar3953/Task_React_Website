@@ -1,0 +1,182 @@
+/* General Footer Styles */
+.footer {
+    background-color: #f9fafb;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .footer-top {
+    margin-bottom: 40px;
+  }
+  
+  .footer-top h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 10px;
+  }
+  
+  .footer-top p {
+    color: #6b7280;
+    font-size: 16px;
+  }
+  
+  .footer-buttons {
+    margin-top: 20px;
+  }
+  
+  .btn-learn-more {
+    background-color: white;
+    border: 1px solid #d1d5db;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6b7280;
+    border-radius: 6px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .btn-get-started {
+    background-color: #ef4444;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  /* Footer Links */
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  
+  .footer-column h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .footer-column li:hover {
+    color: #374151;
+  }
+  
+  .new-badge {
+    background-color: #d1fae5;
+    color: #059669;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 2px 5px;
+    margin-left: 6px;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-logo {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #6b7280;
+  }
+  
+  /* Footer Container Styles */
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f9fa; /* Adjust background color as needed */
+  }
+  
+  .footer-logo {
+    height: 25px; /* Adjust as needed */
+    width: auto;
+  }
+  
+  .footer-text {
+    font-size: 0.875rem;
+    color: #6b7280; /* Adjust text color as needed */
+    margin: 0;
+  }
+  
+  /* Mobile Specific Styles */
+  @media screen and (max-width: 767px) {
+    .footer-buttons {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .btn-learn-more,
+    .btn-get-started {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    .footer-links {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  
+    .footer-column {
+      width: 100%;
+    }
+  
+    /* Footer Layout */
+    .footer-container {
+      flex-direction: column;
+      text-align: left; /* Align text to the left */
+      padding: 20px;
+      align-items: normal;
+    }
+  
+    .footer-logo {
+      margin-bottom: 10px;
+      width: 80px; /* Adjust size as needed */
+    }
+  
+    .footer-text {
+      text-align: left; /* Left align the footer text */
+      margin-top: 10px;
+    }
+    .btn-get-started {
+      order: 1; /* First in order */
+  }
+
+  .btn-learn-more {
+      order: 2; /* Second in order */
+  }
+  }
+  

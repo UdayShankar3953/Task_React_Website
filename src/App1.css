@@ -1,0 +1,497 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  button {
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  
+ 
+  
+  
+  /* Hero Section */
+  .hero {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* Feature Banner as a Button */
+  .hero-feature-banner {
+    margin-bottom: 20px;
+  }
+  
+  .feature-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid #f87171;
+    border-radius: 999px;
+    background-color: #ffffff;
+    color: #E63F3A;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .feature-button:hover {
+    background-color: #ffffff;
+    border-color: #d97706;
+  }
+  
+  .feature-badge {
+    background-color: #ffffff;
+    color: #E63F3A;
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 999px;
+    font-weight: 600;
+    border: 1px solid #f87171;
+  }
+  
+  .feature-text {
+    color: #E63F3A;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  /* Hero Heading and Subtext */
+  .hero-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 16px;
+    color: #4b5563;
+    margin-bottom: 30px;
+  }
+  
+  /* Buttons Section */
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn-demo,
+  .btn-signup {
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 999px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s;
+  }
+  
+  .btn-demo {
+    background-color: transparent;
+    color: #ef4444;
+    border: 1px solid #696666;
+  }
+  
+  .btn-demo:hover {
+    background-color: #ef4444;
+    color: #fff;
+  }
+  
+  .video-icon {
+    font-size: 16px;
+  }
+  
+  .btn-signup {
+    background-color: #ef4444;
+    color: #fff;
+  }
+  
+  .btn-signup:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Hero Image */
+  .hero-image-container {
+    margin: 40px auto 20px;
+    max-width: 600px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Company Logos */
+  .hero-logos {
+    margin-top: 40px;
+  }
+  
+  .hero-logos p {
+    font-size: 16px;
+    color: #6b7280;
+    margin-bottom: 20px;
+  }
+  
+  .logo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .logo-grid img {
+    max-height: 40px;
+    object-fit: contain;
+  }
+  
+  /* Features Section */
+  .features-section {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .features-title {
+    color: red;
+    margin-bottom: 1rem;
+  }
+  
+  .features-subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .features-description {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    color: #555;
+  }
+  
+  /* Features Grid */
+  .features-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 2rem;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .feature-item {
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .feature-icon {
+    margin-bottom: 1rem;
+    width: 50px;
+  }
+  
+  .feature-heading {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature-text {
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
+  /* Divider */
+  .features-divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 2rem 0;
+  }
+  
+  /* Testimonial Section */
+  .features-testimonial {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .company-logo {
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial-text {
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .profile-image {
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+  }
+  
+  .profile-name {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .profile-role {
+    color: #777;
+    margin: 0;
+  }
+  
+  
+  /* FAq */
+  /* FAQ Section */
+  .faq-section {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .faq-title {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .faq-subtitle {
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .faq-list {
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    border-top: 1px solid #ddd;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+    text-align: left;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .faq-answer {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .faq-icon {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  /* FAQ Footer */
+  .faq-footer {
+    max-width: 700px;
+    margin: 2rem auto 0;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center; /* Center align the content */
+  }
+  
+  .faq-footer-content {
+    margin-bottom: 1rem;
+  }
+  
+  .faq-footer-img {
+    width: 120px;
+    height: 56px;
+    object-fit: contain;
+    margin-bottom: 0.5rem; /* Space between image and text */
+  }
+  
+  .faq-footer-text {
+    font-size: 1rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .faq-footer-button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .faq-footer-button:hover {
+    background-color: #cc0000;
+  }
+  
+  
+  /* Blog Section */
+  /* Blog Section */
+  
+  
+  
+  
+  
+
+ 
+  
+  
+  
+
+
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    
+  
+    /* Hero Section */
+    .hero {
+      padding: 20px 10px;
+    }
+  
+    .hero-content h1 {
+      font-size: 28px;
+    }
+  
+    .hero-content p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  
+    .hero-buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  /* Adjust button order for mobile */
+  .btn-signup {
+    order: 1;
+  }
+
+  .btn-demo {
+    order: 2;
+  }
+    .hero-image-container {
+      margin: 20px auto 10px;
+      max-width: 100%;
+    }
+  
+    .hero-image {
+      border-radius: 5px;
+    }
+  
+    /* Features Section */
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .features-title {
+      font-size: 20px;
+    }
+  
+    .features-subtitle {
+      font-size: 18px;
+    }
+  
+    /* FAQ Section */
+    .faq-list {
+      padding: 0 10px;
+    }
+  
+    .faq-item {
+      padding: 10px 0;
+    }
+  
+    
+    .header {
+        justify-content: space-between;
+      }
+    
+      .mobile-nav-toggle {
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+      }
+    
+      .mobile-menu {
+        display: none;
+        flex-direction: column;
+        padding: 20px;
+        background-color: #ffffff;
+        border-top: 1px solid #e5e7eb;
+      }
+    
+      .mobile-menu.hidden {
+        display: none;
+      }
+    
+      .mobile-menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+    
+      .mobile-menu li {
+        margin-bottom: 15px;
+      }
+    
+      .mobile-menu li a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #374151;
+      }
+    
+      /* Buttons occupy full width */
+      .hero-buttons button {
+        width: 100%;
+      }
+    
+    }
+  
