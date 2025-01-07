@@ -40,25 +40,26 @@ The app will be available at `http://localhost:3000`.
 
 ### Desktop Version
 
-#### Landing Page
-![Landing Page - Desktop](./screenshots/desktop-landing-page.png)
 
-#### Features Section
-![Features Section - Desktop](./screenshots/desktop-features-section.png)
+![](screenshots/d1.png)
+![](screenshots/d2.png)
+![](screenshots/d3.png)
+![](screenshots/d4.png)
+![](screenshots/d5.png)
+![](screenshots/d6.png)
+![](screenshots/d7.png)
 
-#### FAQ Section
-![FAQ Section - Desktop](./screenshots/desktop-faq-section.png)
+
 
 ---
 
 ### Mobile Version
 
-#### Landing Page
-![Landing Page - Mobile](./screenshots/mobile-landing-page.png)
-
-#### Features Section
-![Features Section - Mobile](./screenshots/mobile-features-section.png)
-
-#### FAQ Section
-![FAQ Section - Mobile](./screenshots/mobile-faq-section.png)
+![](screenshots/M1.png)
+![](screenshots/M2.png)
+![](screenshots/M3.png)
+![](screenshots/M4.png)
+![](screenshots/M5.png)
+![](screenshots/M6.png)
+![](screenshots/M7.png)
 
