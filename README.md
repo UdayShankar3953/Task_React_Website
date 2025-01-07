@@ -1,6 +1,9 @@
 
 # React Assignment
 
+## Live App
+[Live Demo](https://task-react-website.vercel.app/)
+
 ## Installation
 
 1. Clone the repository:
